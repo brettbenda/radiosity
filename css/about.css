@@ -73,25 +73,3 @@
 .sectionContainer{
 	border-bottom:2vmin double #476789;
 }
-
-.gatorPic{
-	height:20vmin;
-	margin:2vmin auto;
-	display: block;
-}
-
-.mePic{
-	/*Design*/
-	border:0.5vmin double #476789;
-	border-radius:25vmin; 
-	/*Layout*/
-	height:30vmin;
-	margin:2vmin auto;
-	display: block;
-}
-
-.dasPic{
-	height:20vmin;
-	margin:0 20vmin;
-	display: block;
-}
