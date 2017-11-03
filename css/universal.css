@@ -18,7 +18,7 @@ p{
 li{
 	font-family: "Verdana", Helvetica, sans-serif;
 	color:#91b3bc;
-	text-align:center;
+	text-align:left;
 	transition: 0.1s font-size linear;
 	list-style-position: inside;
 }
