@@ -9,7 +9,8 @@
 /*All text by default does the following*/
 p{
 	font-family: "Verdana", Helvetica, sans-serif;
-	color:#91b3bc;
+	/**color:#91b3bc;**/
+	color: #000000;
 	text-align:center;
 	transition: 0.1s font-size linear;
 }
@@ -17,7 +18,7 @@ p{
 /*Same for list items*/
 li{
 	font-family: "Verdana", Helvetica, sans-serif;
-	color:#91b3bc;
+	color: #000000;
 	text-align:left;
 	transition: 0.1s font-size linear;
 	list-style-position: inside;
@@ -37,8 +38,8 @@ a:hover{
 
 .header{
 	/*design*/
-	background-color:#2e323c;
-	border-bottom: 1vh solid #ebeced;
+	background-color:#FC0D1B;
+	border-bottom: 0.5vh solid #000000;
 	/*layout*/
 	width: 100%;
 	height: 10vh;
@@ -50,7 +51,7 @@ a:hover{
 .headerButtonContainer{
 	/*layout*/
 	position:absolute;
-	top:50%;
+	top:60%;
 	height:4.5vmin;
 	width:100%;
 	transform: translate(0,-50%);
@@ -78,7 +79,7 @@ a:hover{
 	/*layout*/
 	position:relative;
 	display: inline-block;
-	margin: auto 3vw;
+	margin: auto 1vw;
 	float: right;
 	height: 100%;
 }
@@ -86,8 +87,7 @@ a:hover{
 /*all body have the same stuff as below*/
 .body{
 	/*design*/
-	background-color:#a2aab0;
-	background-image:url(../images/background.png);
+	background-color: #FECA6F;
 	/*layout*/
 	position:absolute;
 	top: 10vh;
@@ -99,6 +99,14 @@ a:hover{
 /*table that will be in middle of page*/
 .centeredTable{
 	margin:1vmin auto;
+}
+
+.image{
+	display: block; 
+	margin:auto; 
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	width:50vmin;
 }
 
 .halfCol{
@@ -135,6 +143,8 @@ a:hover{
 	/*Layout*/
 	max-width:60%;
 	margin:auto;
+	margin-top: 5vh;
+	margin-bottom: 2vh;
 }
 
 .detail{
